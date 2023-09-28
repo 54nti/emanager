@@ -27,7 +27,7 @@ public class EmployeeService {
         return employeeRepo.findAll();
     }
 
-    public Employee updateEmdployee(Employee e) {
+    public Employee updateEmployee(Employee e) {
         return employeeRepo.save(e);
     }
 
